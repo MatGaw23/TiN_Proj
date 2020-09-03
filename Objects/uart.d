@@ -1,0 +1,12 @@
+.\objects\uart.o: C:\Users\Mateusz\Desktop\projekt_SMPII\projekt_SMPII\uart.c
+.\objects\uart.o: C:\Users\Mateusz\Desktop\projekt_SMPII\projekt_SMPII\uart.h
+.\objects\uart.o: E:\Keil\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\MKL46Z4.h
+.\objects\uart.o: E:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\uart.o: E:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart.o: E:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\uart.o: E:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\uart.o: E:\Keil\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\uart.o: E:\Keil\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.3.0\Device\Include\system_MKL46Z4.h
+.\objects\uart.o: E:\Keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\uart.o: E:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\uart.o: E:\Keil\ARM\ARMCC\Bin\..\include\string.h
