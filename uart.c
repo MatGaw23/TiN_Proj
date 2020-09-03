@@ -1,11 +1,9 @@
- /*----------------------------------------------------------------------------
+/*----------------------------------------------------------------------------
  *      
  *----------------------------------------------------------------------------
  *      Name:    uart.c
- *      Purpose: Microprocessors Laboratory
  *----------------------------------------------------------------------------
- *      
- *---------------------------------------------------------------------------*/
+
  #include "uart.h"
  #include <stdlib.h>
  #include <stdbool.h>
@@ -14,7 +12,7 @@
  #define UART_RX_PIN						1
  #define UART_TX_PIN						2
  
- #define UART_RX_BUFFER_SIZE		500
+ #define UART_RX_BUFFER_SIZE				500
 
  struct uart_ctx
  { 
@@ -42,12 +40,9 @@
 	 UART0->BDH &= ~UART0_BDH_SBNS_MASK;
 	 UART0->C1 &= ~(UART0_C1_M_MASK|UART0_C1_PE_MASK);//no parrity control 8 bit data
 		
-	// ctx.buffer = malloc(UART_RX_BUFFER_SIZE);
-	// ctx.position = 0;
-
 	 UART0->C2 |= UART0_C2_RIE_MASK | UART0_C2_RE_MASK | UART0_C2_TE_MASK; 
 
-	 	/*ARM's Nested Vector Interrupt Controller configuration*/
+	 /*ARM's Nested Vector Interrupt Controller configuration*/
 	 NVIC_ClearPendingIRQ(UART0_IRQn);	 
 	 NVIC_EnableIRQ(UART0_IRQn);			
 	 NVIC_SetPriority (UART0_IRQn, 3);	 	 

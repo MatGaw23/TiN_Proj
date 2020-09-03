@@ -2,11 +2,7 @@
  *      
  *----------------------------------------------------------------------------
  *      Name:    lowpower.c
- *      Purpose: Microprocessors Laboratory
  *----------------------------------------------------------------------------
- *      
- *      Author: Pawel Russek AGH University of Science and Technology
- *---------------------------------------------------------------------------*/
 
 #include "MKL46Z4.h"                    // Device header
 #include "lowpower.h"

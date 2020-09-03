@@ -2,19 +2,16 @@
  *      
  *----------------------------------------------------------------------------
  *      Name:    lowpower.h
- *      Purpose: Microprocessors Laboratory
  *----------------------------------------------------------------------------
- *      
- *      Author: Pawel Russek AGH University of Science and Technology
- *---------------------------------------------------------------------------*/
 
 #ifndef LOWPOWER_H
 #define LOWPOWER_H
 
+/* Initializes low power modes */
 void lowPowerInitialize(void);
-void enterVLPMode(void);
 
-extern unsigned char fastFlag;
+/* Enters Very low power mode */
+void enterVLPMode(void);
 
 #endif
 
